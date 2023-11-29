@@ -8,11 +8,7 @@ WHERE rating = 'PG-13';
 
 #2 Get a list of all the different films duratiON.;
 
-<<<<<<< HEAD
 SELECT DISTINCT length AS duracion 
-=======
-SELECT DISTINCT length AS duraciON 
->>>>>>> 348dcae7d232c1ef0588f045badd706628c4ac9e
 FROM film AS F 
 order by length ASc;
 
